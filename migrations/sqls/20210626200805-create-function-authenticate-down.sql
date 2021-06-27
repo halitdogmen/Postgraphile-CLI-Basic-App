@@ -1,0 +1,1 @@
+DROP FUNCTION app_calendar.authenticate(text, text);

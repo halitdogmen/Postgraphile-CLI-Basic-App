@@ -1,0 +1,1 @@
+DROP TYPE app_calendar.jwt;

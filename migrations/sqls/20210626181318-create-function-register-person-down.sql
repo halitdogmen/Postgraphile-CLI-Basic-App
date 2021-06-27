@@ -1,0 +1,1 @@
+DROP FUNCTION app_calendar.register_person(text, text, text, text);

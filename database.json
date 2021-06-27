@@ -1,0 +1,9 @@
+{
+    "dev":{
+       "driver":"pg",
+       "host":"localhost",
+       "database":"calendar-app",
+       "username":"postgres",
+       "password":"user" 
+    }
+}

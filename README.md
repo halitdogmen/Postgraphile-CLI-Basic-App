@@ -24,5 +24,6 @@ $ .\server.bat
 ```
 
 Note: You can change the database properties from the database.json file before running the application.
+
 Note: This repository is still under development.Therefore, documents such as database design, sample queries will be uploaded later.
 In addition to all these, e2e tests will be included in the project.

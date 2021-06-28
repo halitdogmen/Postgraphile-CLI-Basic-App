@@ -1,3 +1,6 @@
+/*
+This function extracts the user's id from jwt. so that the user can take action without sending his id.
+*/
 CREATE FUNCTION app_calendar.set_person_id ()
     RETURNS TRIGGER
     AS $$

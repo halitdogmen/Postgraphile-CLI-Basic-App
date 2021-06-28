@@ -1,4 +1,6 @@
-
+/*
+We want to connect the user's login to a certain business logic.
+*/
 CREATE FUNCTION app_calendar.authenticate (email text, password text)
     RETURNS app_calendar.jwt
     AS $$

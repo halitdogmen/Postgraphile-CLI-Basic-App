@@ -1,3 +1,7 @@
+/*
+We prevent the user from accessing the information of other users that they should not reach.
+*/
+
 ALTER TABLE app_calendar.event ENABLE ROW LEVEL SECURITY;
 
 CREATE POLICY select_event ON app_calendar.event FOR SELECT TO app_person USING

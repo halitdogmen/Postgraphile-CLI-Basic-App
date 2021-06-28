@@ -1,4 +1,6 @@
-
+/*
+Restricts permissions for roles you create in create-roles-up
+*/
 ALTER DEFAULT privileges REVOKE EXECUTE ON functions FROM public;
 
 GRANT USAGE ON SCHEMA app_calendar TO app_anonymous, app_person;

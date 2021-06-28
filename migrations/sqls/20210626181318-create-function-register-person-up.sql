@@ -1,3 +1,6 @@
+/*
+We want to connect the user's registration to a certain business logic.
+*/
 CREATE FUNCTION app_calendar.register_person(first_name text, last_name text, email text, password text)
     RETURNS app_calendar.person
     AS $$

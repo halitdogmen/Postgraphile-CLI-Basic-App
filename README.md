@@ -8,17 +8,17 @@ In addition to all these, e2e tests will be included in the project.
 - [x] Creation of person table in app.calendar schema.
 - [x] Creation of event table in app.calendar schema.
 - [x] Creation of person_account table in app_private schema.
-- [x] User Registration.
-- [x] JWT Authentication.
-- [x] User Login.
+- [x] User registration.
+- [x] JWT authentication.
+- [x] User login.
 - [x] Creating event by user.
 - [x] Row Level Security.
-- [x] Table Comments.
+- [x] Table comments.
 - [ ] Tests.
 - [ ] User settings format(PostgreSQL Function)
-- [ ] Check User properties (non empty trimmed string PostgreSQL Function).
-- [ ] Clearly understandable Error outputs (PostgreSQL Function).
-- [ ] Database Diagrams.
+- [ ] Check user properties (non empty trimmed string PostgreSQL Function).
+- [ ] Clearly understandable error outputs (PostgreSQL Function).
+- [ ] Database diagrams.
 
 ## Motivation
 It can provide fast results in rapid API development in some applications such as startup demo or competition that need to be developed quickly with Postgraphile. Being fully compatible with Postgresql increases this speed.

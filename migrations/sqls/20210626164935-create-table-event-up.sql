@@ -3,7 +3,7 @@ This table represents the user's events in a specific time period.
 */
 CREATE TABLE app_calendar.event (
    id SERIAL PRIMARY KEY,
-   title text NOT NULL,
+   title text CHECK( util.non_empty_trimmed_string(title,'title')),
    payload jsonb,
    _start timestamptz NOT NULL,
    _end timestamptz NOT NULL,

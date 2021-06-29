@@ -7,6 +7,13 @@ CREATE FUNCTION app_calendar.register_person(first_name text, last_name text, em
 DECLARE
     person app_calendar.person;
 BEGIN
+    IF (LENGTH(password)<8) THEN
+        RAISE unique_violation USING MESSAGE = 'Password length must be at least 8';
+    ELSIF (password !~ '^(?=.*[a-z])') THEN
+        RAISE unique_violation USING MESSAGE = 'Password must contain at least one lowercase letter.';
+    ELSIF (password !~ '(?=.*[A-Z])') THEN
+        RAISE unique_violation USING MESSAGE = 'Password must contain at least one uppercase letter.';
+    END IF;
     INSERT INTO app_calendar.person (first_name, last_name)
         VALUES(first_name,last_name)
     RETURNING

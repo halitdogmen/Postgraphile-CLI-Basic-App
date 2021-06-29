@@ -13,8 +13,8 @@ In addition to all these, e2e tests will be included in the project.
 - [x] User Login.
 - [x] Creating event by user.
 - [x] Row Level Security.
-- [-] Table Comments.
-- [-] Tests.
+- [x] Table Comments.
+- [ ] Tests.
 - [ ] User settings format(PostgreSQL Function)
 - [ ] Check User properties (non empty trimmed string PostgreSQL Function).
 - [ ] Clearly understandable Error outputs (PostgreSQL Function).

@@ -57,5 +57,5 @@ and then, open new terminal
 $ npm run test
 ```
 
-Note: You can change the database properties from the database.json and server.bat file before running the application.
+Note: You should change the database properties from the database.json and server.bat file before running the application.
 

@@ -23,6 +23,18 @@ Second, the app must be launched.
 $ .\server.bat
 ```
 
+## Test
+
+run server 
+```bash
+$ .\server.bat
+```
+then, open new terminal
+
+```bash
+$ npm run test
+```
+
 Note: You can change the database properties from the database.json file before running the application.
 
 Note: This repository is still under development.Therefore, documents such as database design, sample queries will be uploaded later.

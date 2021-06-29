@@ -57,4 +57,8 @@ $ npm run test
 ```
 
 Note: You should change the database properties from the database.json and server.bat file before running the application.
+## Database Diagrams
+## app_auth Schema
+![alt text](https://github.com/halitdogmen/Postgraphile-CLI-Basic-App/blob/main/Diagrams/app_auth.png?raw=true)
+
 

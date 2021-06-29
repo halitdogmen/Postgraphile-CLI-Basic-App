@@ -21,7 +21,7 @@ In addition to all these, e2e tests will be included in the project.
 - [ ] Database diagrams.
 
 ## Motivation
-It can provide fast results in rapid API development in some applications such as startup demo or competition that need to be developed quickly with Postgraphile. Being fully compatible with Postgresql increases this speed.
+In some situations, such as a startup demo or competition that need to be developed quickly, Postgraphile can be a good alternative for API development. Being fully compatible with Postgresql increases this speed.
 
 ## Installation
 First of all, nodejs modules must be loaded.

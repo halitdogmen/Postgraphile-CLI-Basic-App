@@ -17,7 +17,7 @@ In addition to all these, e2e tests will be included in the project.
 - [ ] Tests.
 - [x] Check user properties (non empty trimmed string PostgreSQL Function).
 - [x] Clearly understandable error outputs (PostgreSQL Function).
-- [ ] Database diagrams.
+- [x] Database diagrams.
 
 ## Motivation
 In some situations, such as a startup demo or competition that need to be developed quickly, Postgraphile can be a good alternative for API development. Being fully compatible with Postgresql increases this speed.
